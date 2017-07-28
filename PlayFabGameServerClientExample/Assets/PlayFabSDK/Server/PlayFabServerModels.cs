@@ -3431,7 +3431,7 @@ namespace PlayFab.ServerModels
         /// <summary>
         /// Deprecated: Always true
         /// </summary>
-        [Obsolete("No longer available", false)]
+        [Obsolete("No longer available", true)]
         public bool? Updated;
         /// <summary>
         /// The number of remaining reports which may be filed today by this reporting player.
@@ -3547,7 +3547,6 @@ namespace PlayFab.ServerModels
         /// <summary>
         /// Text of message to send.
         /// </summary>
-        [Obsolete("Use 'Package' instead", false)]
         public string Message;
         /// <summary>
         /// Defines all possible push attributes like message, title, icon, etc
